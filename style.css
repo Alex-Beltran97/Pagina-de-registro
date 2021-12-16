@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/73/6e/ec/736eec33b497c3efbd3bf70c859c2a08.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+main {
+    display: grid;
+    place-items: center;
+    width: 40%;
+    height: 60vh;
+    background-color: #376298;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 13px 6px 20px white;
+}
+
+#container {
+    margin-top: 35px;
+    background-color: #CCD7E1;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 4;
+}
+
+.lista__input {
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    border:none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+.lista__input--button:hover{
+    background-color: #0CBFE9;
+}
+
+.lista__input--button:active{
+    background-color: lightgreen;
+}
+
+
+.prompt{
+    display:grid;
+    place-items: center;
+    background-color: #0CBFE9;
+    width: 30%;
+    height: 150px;
+    border-radius: 50px;
+    z-index: 5;
+    position: absolute;
+    top: 60px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    transition-property = background-color,color,box-shadow;
+    transition: background-color 2s;
+    box-shadow: 5px 2px 10px whitesmoke;
+}
+
+@media (max-width:1100px){
+    main {
+        display: grid;
+        place-items: center;
+        width: 80%;
+        height: 60vh;
+        background-color: #376298;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 13px 6px 20px white;
+    }
+
+    .prompt{
+        display:grid;
+        place-items: center;
+        background-color: #0CBFE9;
+        width: 60%;
+        height: 150px;
+        border-radius: 50px;
+        z-index: 5;
+        position: absolute;
+        top: 90px;
+        color: white;
+        font-size: 25px;
+        font-weight: bolder;
+        transition-property = background-color,color,box-shadow;
+        transition: background-color 2s;
+        box-shadow: 5px 2px 10px whitesmoke;
+}
+
+@media (max-width:550px){
+
+    #container {
+        margin-top: 35px;
+        background-color: #CCD7E1;
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        z-index: 4;
+    }
+
+    
+    .lista__input {
+        width: 80%;
+        height: 40px;
+        margin: 10px;
+        border:none;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .prompt{
+        display:grid;
+        place-items: center;
+        background-color: #0CBFE9;
+        width: 90%;
+        height: 80px;
+        border-radius: 50px;
+        z-index: 5;
+        position: absolute;
+        top: 50px;
+        color: white;
+        font-size: 17px;
+        font-weight: bolder;
+        transition-property = background-color,color,box-shadow;
+        transition: background-color 2s;
+        box-shadow: 5px 2px 10px whitesmoke;
+}
+
+.capture{
+    background-color:lightgrey;
+}
+
+
+
+
+
