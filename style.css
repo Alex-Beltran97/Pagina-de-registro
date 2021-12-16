@@ -193,7 +193,7 @@ main {
     .prompt{
         display:grid;
         place-items: center;
-        background-color: red;
+        background-color: #0CBFE9;
         width: 50%;
         height: 70px;
         border-radius: 50px;
